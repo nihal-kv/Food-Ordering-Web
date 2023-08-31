@@ -1,0 +1,57 @@
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #131921;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+.header__logo{
+    margin: 0 20px;
+    margin-top: 15px;
+    width: 120px;
+}
+
+.header__nav{
+    margin-right: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.header__link{
+    color: white;
+    text-decoration: none;
+    margin-right: 15px;
+    padding: 4px;
+    transition: all 0.3s;
+}
+
+.header__link:hover{
+    color: rgb(231, 223, 223);
+    transform: scale(1.08);
+}
+
+.header__option{
+    display: flex;
+    flex-direction: column;
+    /* margin-right: 20px; */
+}
+.header__optionLineOne{
+    font-size: 10px;
+}
+.header__optionLineTwo{
+    font-size: 13px;
+    font-weight: 800;
+}
+
+.header__optionBasket{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.header__basketCount{
+    margin-left: 10px;
+   
+}

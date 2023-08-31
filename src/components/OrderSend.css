@@ -1,0 +1,19 @@
+.order-sent{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    padding: 20px;
+}
+
+.orders-message1, .orders-message2{
+    color: rgb(99, 65, 65);
+}
+
+@media (max-width: 550px)
+{
+    .orders-message1, .orders-message2{
+        font-size: 0.8rem;
+    }
+}

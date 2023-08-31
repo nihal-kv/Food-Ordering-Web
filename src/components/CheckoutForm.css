@@ -1,0 +1,39 @@
+.checkout{
+    display: flex;
+    flex-direction: column;
+    max-height: 14.5rem;
+    overflow-y: scroll;
+    margin: 10px;
+}
+.checkout::-webkit-scrollbar{
+    display: none;
+}
+.inputs{
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
+    font-weight: bold;
+}
+ #name, #address, #city, #pincode{
+    width: 270px;
+    height: 15px;
+}
+
+.confirm-btn{
+    width: 100px;
+    height: 30px;
+    background-color: rgb(8, 8, 65);
+    color: white;
+    border-radius: 10px;
+    margin: 5px;
+    cursor: pointer;
+    float: right;
+}
+
+@media (max-width: 550px)
+{
+    #name, #address, #city, #pincode{
+        width: 90%;
+        height: 15px;
+    }
+}

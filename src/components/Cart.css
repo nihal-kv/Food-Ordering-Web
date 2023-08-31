@@ -1,0 +1,33 @@
+.item-section{
+    max-height: 13rem; 
+    overflow-y: auto;
+    
+}
+/* .item-section::-webkit-scrollbar{
+    display: none;
+} */
+.total{
+    margin: 10px;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+.btn{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+}
+.action-buttons{
+
+    width: 70px;
+    height: 30px;
+    background-color: rgb(8, 8, 65);
+    color: white;
+    border-radius: 10px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+/* @media (max-width: 550px)
+{
+
+} */
